@@ -1,0 +1,29 @@
+{
+  "name": "mpa-shopify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "iapi/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garyfish200/MPA-Shopify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garyfish200/MPA-Shopify/issues"
+  },
+  "homepage": "https://github.com/garyfish200/MPA-Shopify#readme",
+  "dependencies": {
+    "@shopify/shopify-api": "^11.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
